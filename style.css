@@ -1,0 +1,46 @@
+#container {
+    border: 2px solid black;
+    width: 200px;
+    height: 300px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+#container #data{
+    border: none;
+    width: 170px;
+    height: 10px;
+    margin: 0 auto;
+    text-align: right;
+    line-height: 10px;
+    
+
+}
+
+#operator{
+    border: none;
+    width: 180px;
+    height: 150px;
+    margin:  0 auto;
+
+}
+
+input {
+    margin-top: 10px;
+}
+
+.number, .operator {
+    margin: 0 auto;
+    width: 40px ;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.number:focus, .operator:focus{
+    outline: 0;
+}
+
